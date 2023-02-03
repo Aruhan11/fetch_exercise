@@ -12,7 +12,7 @@ def cal(points):
   # convert the type of string to int
   points = int(points)
   # open the csv file to read each row of transactions 
-  with open('data-csv.csv', mode = 'r', newline='') as csvfile:
+  with open('transactions.csv', mode = 'r', newline='') as csvfile:
     reader = csv.reader(csvfile)
     # count the current line of csv file
     line = 0
